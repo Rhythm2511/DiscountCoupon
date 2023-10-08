@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-4xl font-bold text-center mt-12 mb-4 text-pink-400">Food<span class="text-pink-600">Panda</span></h1>
+    
+    <div class="bg-pink-200 p-2 w-1/2 rounded-lg">
+        <h3 class="mx-4 mt-12 mb-2 inline font-bold">Coupon Code:</h3>
+        <input class="inline rounded" type="text" id="disco" placeholder="Apply coupon code">
+        <button onclick="applyDiscount()" class="bg-pink-500 hover:bg-pink-700 rounded-lg mx-8 p-2" id="btn-apply">Apply</button>
+    </div>
+    <div class="mt-8 bg-purple-200 p-6 w-1/2 text-center font-medium text-pink-600">
+        <h2 class="text-4xl">Balance</h2>
+        <h3 class="text-3xl">$<span id="balance-total">300</span></h3>
+    </div>
+
+    <script src="discount.js"></script>
+</body>
+</html>
